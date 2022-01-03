@@ -1,0 +1,16 @@
+For deleting the remote branch
+	git push origin --delete <your_branch>
+For deleting the local branch 
+1: git branch -D <branch_name>
+
+2: git branch --delete --force <branch_name>  # Same as -D
+
+3: git branch --delete  <branch_name>         # Error on unmerge
+
+
+Clone a branch
+git clone -b <branch> <remote_repo>
+
+Clone a specifi commit
+Git pull origin
+Git checout <sha>
